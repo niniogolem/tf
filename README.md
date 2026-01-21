@@ -1,5 +1,7 @@
-Monte Carlo channel simulator for bit channel selection in Polar coding
-The main program is the Programa Principal notebook, you must customize the parameter on the 2nd cell before running the simulations according to the comments provided.
+## Monte Carlo channel simulator for bit channel selection in Polar coding
+The main program is the "Programa Principal" notebook, run the cells in order and customize the parameters on the 2nd cell, such as channel model, equalizer, N, K, SCL list depth, coherence block, Monte Carlo parameters, etc.
+
+There is the option to save the output of the Monte Carlo simulation therefore can test the channel later without running the simulation again. There is a plan to add LDPC coding at the end so the 3 main BER plots: uncoded, Polar and LDPC are compared at once.
 
 Copyright (c) 2026 Sergio Huaman Kemper
 

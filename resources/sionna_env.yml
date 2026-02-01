@@ -8,9 +8,11 @@ dependencies:
   - _python_abi3_support=1.0=hd8ed1ab_2
   - aom=3.12.1=h7934f7d_0
   - asttokens=3.0.1=pyhd8ed1ab_0
+  - atk-1.0=2.38.0=he149ff8_0
   - blas=1.0=mkl
   - bottleneck=1.4.2=py312haa0f9ac_1
   - bzip2=1.0.8=h5eee18b_6
+  - c-ares=1.34.6=hd44998d_0
   - ca-certificates=2026.1.4=hbd8a1cb_0
   - cairo=1.18.4=h44eff21_0
   - comm=0.2.3=pyhe01879c_0
@@ -22,16 +24,31 @@ dependencies:
   - decorator=5.2.1=pyhd8ed1ab_0
   - executing=2.2.1=pyhd8ed1ab_0
   - expat=2.7.3=h7354ed3_4
+  - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
+  - font-ttf-inconsolata=2.001=hcb22688_0
+  - font-ttf-source-code-pro=2.030=hd3eb1b0_0
+  - font-ttf-ubuntu=0.83=h8b1ccd4_0
   - fontconfig=2.15.0=h2c49b7f_0
+  - fonts-anaconda=1=h8fa9717_0
+  - fonts-conda-ecosystem=1=hd3eb1b0_0
   - freetype=2.14.1=hf5b9546_0
   - fribidi=1.0.16=h9fb5f84_0
+  - gdk-pixbuf=2.42.10=h64b468e_2
+  - gettext=0.21.0=hedfda30_2
+  - giflib=5.2.2=h5eee18b_0
+  - glib=2.86.3=h617169b_0
+  - glib-tools=2.86.3=h9fad118_0
   - graphite2=1.3.14=h295c915_1
+  - graphviz=2.50.0=h78213b7_2
+  - gtk2=2.24.33=h4ce724d_4
+  - gts=0.7.6=hb67d8dd_3
   - harfbuzz=12.3.0=h79d275a_1
   - icu=73.1=h6a678d5_0
   - intel-openmp=2025.0.0=h06a4308_1171
   - ipykernel=7.1.0=pyha191276_0
   - ipython=9.9.0=pyh53cf698_0
   - ipython_pygments_lexers=1.1.1=pyhd8ed1ab_0
+  - jansson=2.14=h5eee18b_1
   - jedi=0.19.2=pyhd8ed1ab_1
   - jpeg=9f=h5ce9db8_0
   - jupyter_client=8.8.0=pyhcf101f3_0
@@ -43,28 +60,44 @@ dependencies:
   - ld_impl_linux-64=2.44=h153f514_2
   - lerc=4.0.0=h6a678d5_0
   - libavif=1.3.0=h3539ee5_0
+  - libboost=1.88.0=h9d9b81f_0
+  - libbrotlicommon=1.2.0=h32cd6e7_0
+  - libbrotlidec=1.2.0=ha2c5f68_0
+  - libbrotlienc=1.2.0=h2e96acb_0
+  - libcurl=8.18.0=h3506a8c_0
   - libdeflate=1.22=h5eee18b_0
   - libedit=3.1.20250104=pl5321h7949ede_0
+  - libev=4.33=h7f8727e_1
   - libexpat=2.7.3=h7354ed3_4
   - libffi=3.4.4=h6a678d5_1
   - libgcc=15.2.0=h69a1729_7
   - libgcc-ng=15.2.0=h166f726_7
+  - libgd=2.3.3=h536bbd8_4
   - libglib=2.86.3=h8b17d9a_0
   - libgomp=15.2.0=h4751f2c_7
   - libhwloc=2.12.1=default_hf1bbc79_1000
   - libiconv=1.16=h5eee18b_3
+  - libidn2=2.3.8=hf80d704_0
+  - libkrb5=1.22.1=h6d2bf13_0
+  - libnghttp2=1.67.1=h697f920_0
   - libnsl=2.0.0=h5eee18b_0
   - libopenjpeg=2.5.4=hee96239_1
   - libpng=1.6.54=hee55ce4_0
+  - librsvg=2.58.0=hadf69e7_1
   - libsodium=1.0.20=h4ab18f5_0
+  - libssh2=1.11.1=h251f7ec_0
   - libstdcxx=15.2.0=h39759b7_7
   - libstdcxx-ng=15.2.0=hc03a8fd_7
   - libtiff=4.7.1=h029b1ac_0
+  - libtool=2.4.7=h6a678d5_0
+  - libunistring=1.3=hb25bd0a_0
   - libuuid=1.41.5=h5eee18b_0
+  - libwebp=1.6.0=h089d785_0
   - libwebp-base=1.6.0=hb7bb969_0
   - libxcb=1.17.0=h9b100fa_0
   - libxml2=2.13.9=h2c43086_0
   - libzlib=1.3.1=hb25bd0a_0
+  - lmdb=0.9.31=hb25bd0a_0
   - lz4-c=1.9.4=h6a678d5_1
   - matplotlib-base=3.10.8=py312h8a257da_0
   - matplotlib-inline=0.2.1=pyhd8ed1ab_0
@@ -74,10 +107,15 @@ dependencies:
   - mkl_random=1.3.0=py312h505adc9_0
   - ncurses=6.5=h7934f7d_0
   - nest-asyncio=1.6.0=pyhd8ed1ab_1
+  - nspr=4.37=h8459abe_0
+  - nss=3.117=h3135ca0_0
   - numexpr=2.14.1=py312h41d4191_0
   - numpy-base=2.4.1=py312h00548fb_0
+  - objgraph=3.5.0=pyh9f0ad1d_0
+  - openjpeg=2.5.4=h4e0627c_1
   - openssl=3.6.1=h35e630c_1
   - packaging=25.0=py312h06a4308_1
+  - pango=1.56.4=h026457f_0
   - parso=0.8.5=pyhcf101f3_0
   - pcre2=10.46=hf426167_0
   - pexpect=4.9.0=pyhd8ed1ab_1
@@ -85,6 +123,8 @@ dependencies:
   - pip=25.3=pyhc872135_0
   - pixman=0.46.4=h7934f7d_0
   - platformdirs=4.5.1=pyhcf101f3_0
+  - poppler=24.09.0=h696634e_4
+  - poppler-data=0.4.12=h06a4308_0
   - prompt-toolkit=3.0.52=pyha770c72_0
   - psutil=7.2.2=py312h5253ce2_0
   - pthread-stubs=0.3=h0ce48e5_1
@@ -94,6 +134,7 @@ dependencies:
   - python=3.12.12=hd17a9e1_1
   - python-dateutil=2.9.0.post0=pyhe01879c_2
   - python-gil=3.12.12=hd8ed1ab_2
+  - python-graphviz=0.20.1=py312h06a4308_1
   - python-tzdata=2025.3=pyhd3eb1b0_0
   - python_abi=3.12=3_cp312
   - pytz=2025.2=py312h06a4308_0

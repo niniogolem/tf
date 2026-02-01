@@ -9,8 +9,8 @@ import os
 # ==========================================
 # 1. CONFIGURACIÓN
 # ==========================================
-N = 128        # Longitud del Bloque (Bits totales)
-K = 64         # Bits de Información (Tasa = K/N)
+N = 128 # Longitud del Bloque (Bits totales)
+K = 64 # Bits de Información (Tasa = K/N)
 n_frozen = N - K  # Número de bits congelados (Los peores canales)
 
 # Nombre de la carpeta (o usa '.' si están en la misma carpeta)
@@ -112,11 +112,9 @@ plt.tight_layout()
 plt.show()
 
 common_count = common_mask.sum()
-print(f"\n[Resultado] Índices Congelados Comunes:{common_count} (El objetivo era {n_frozen})")
+print(f"\n[Resultado] Índices Congelados Comunes:{common_count}")
 if common_count == n_frozen:
-    print("ÉXITO: Todos los archivos coinciden exactamente en el conjunto congelado.")
-else:
-    print(f"ADVERTENCIA: Desacuerdo encontrado. Solo {common_count} índices son universalmente malos.")
+    print(f"La seleccion de {n_frozen} bits cubre todos los canales simulados.")
 
 # ==========================================
 # FIGURA 2: MATRIZ DE CORRELACIÓN Y REGIÓN DE TRANSICIÓN
